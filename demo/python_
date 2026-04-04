@@ -1,0 +1,73 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNpqjtzwipxyt8rZb0HYa3W",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/karthikreddyk18/demo/blob/main/python_\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 11,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "mxYDM377vSkP",
+        "outputId": "c191ac51-1304-4912-bfad-ee81a95004ec"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter a number: 0\n",
+            "Factorial: 1\n"
+          ]
+        }
+      ],
+      "source": [
+        "def factorial(n):\n",
+        "    result = 1\n",
+        "    for i in range(1, n + 1):\n",
+        "        result *= i\n",
+        "    return result\n",
+        "\n",
+        "num = int(input(\"Enter a number: \"))\n",
+        "if(num<0):\n",
+        " print(\"Not defined\")\n",
+        "else:\n",
+        " print(\"Factorial:\", factorial(num))\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "Jp-8Zf0Y0aVb"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
